@@ -17,9 +17,13 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn install
-    - run: yarn build
-    - run: mv build docs
-    - run: cp CNAME build/
+    - name: Install and Build
+      run: |
+        yarn install
+        yarn build
+    - name: Moving and setup env
+      run: |
+        mv build docs
+        cp CNAME docs/
       env:
         CI: true
