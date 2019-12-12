@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/img/logo.png';
 
 const Navbar = () => (
-  <header id='navigationmenu' className='fade-down animate1 navigationmenulight'>
+  <header id='navigationmenu' className='fade-down animate2 navigationmenulight'>
 
     <div className='container'>
 
       <div className='grid_12 gridnavigation'>
 
-        <img className='logo fade-up animate4' alt='' src={Logo} />
+        <Link to="/"><img className='logo fade-up animate1' alt='' src={Logo} /></Link>
 
           <ul className='sf-menu' id='nav'>
 
@@ -25,12 +25,12 @@ const Navbar = () => (
 
             <li className='red'>
               <span className='menufilter'></span>
-              <a href='#'><strong>TOUR</strong></a>
+              <Link to='/tour'><strong>TOUR</strong></Link>
             </li>
 
             <li className='green'>
               <span className='menufilter'></span>
-              <a href='#'><strong>LIÊN HỆ</strong></a>
+              <Link to='/lien-he'><strong>LIÊN HỆ</strong></Link>
             </li>
 
           </ul>
