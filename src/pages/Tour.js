@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 import useAnimate from '../hook/useAnimate';
+import { getTours } from "../services/tour";
 
 const Tour = () => {
+  const [collections, setCollections] = useState([]);
   useAnimate();
+
+  useEffect(() => {
+    const getTourList = async () => {
+      const data = await getTours();
+      setCollections(data)
+    };
+    getTourList();
+    // eslint-disable-next-line
+  }, []);
+
+  console.log(collections);
+
   return (
     <>
       <section className="header-page fade-up header-page-tours">
@@ -17,6 +31,53 @@ const Tour = () => {
 
         <div className="container clearfix">
 
+          {collections.map(item => (
+            <div className="grid_6" key={item.id}>
+              <div className="archivetour yellow fade-left animate1">
+
+                <div className="leftarchivetour">
+
+                  <a href="#"><img
+                    alt="" className="imgleftarchivetour opacity"
+                    src={item.img}
+                  /></a>
+
+                  <div className="pricetitleleftarchivetour">
+
+                    <div className="priceleftarchivetour">
+                      <p>{item.price} K</p>
+                    </div>
+                    <p className="titleleftarchivetour">{item.type}</p>
+                  </div>
+
+
+                </div>
+
+                <div className="rightarchivetour">
+
+                  <div className="titledayarchivetour">
+                    <a href="#"><p
+                      className="titlearchivetour"
+                    >{item.title}</p></a>
+
+                    <div className="dayarchivetour">
+                      <p>{item.durations}</p>
+                      <span>DAYS</span>
+                    </div>
+
+                  </div>
+
+                  <div className="descriptioniconsarchivetour">
+
+                    <p className="descriptionarchivetour" dangerouslySetInnerHTML={{ __html: item.description }} />
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          ))}
 
           <div className="grid_6">
             <div className="archivetour yellow fade-left animate1">
