@@ -1247,8 +1247,7 @@ canvas{
 	background: url(../img/header-page/prices.jpg) 50% 0 fixed;
 }
 .header-page-tours{
-	background: url(../img/header-page/tours.jpg) center;
-	background-size: cover;
+	background: url(../img/header-page/tours.jpg) 50% 0 fixed;
 }
 .header-page-destinations{
 	background: url(../img/header-page/destinations.jpg) 50% 0 fixed;
@@ -1278,7 +1277,6 @@ canvas{
 .archivetour{
 	float:left;
 	width:100%;
-	height: 220px;
 
 	background-color:#fff;
 
@@ -1288,17 +1286,11 @@ canvas{
 .leftarchivetour{
 	float:left;
 	width:50%;
-	height: 220px;
 	position:relative;
 }
 .imgleftarchivetour{
 	width:100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: center;
-	position: absolute;
-	top: 0;
-	left: 0;
+	float:left;
 }
 .pricetitleleftarchivetour{
 	float:left;
@@ -1311,7 +1303,7 @@ canvas{
 	background-color:#434A54;
 	color:#B1BAC3;
 	font-size:15px;
-	margin-top:45px;
+	margin-top:25px;
 	margin-bottom:25px;
 }
 .priceleftarchivetour{
@@ -1321,12 +1313,12 @@ canvas{
 	border-radius:100px;
 }
 .priceleftarchivetour p{
-	width:120px;
-	height:120px;
+	width:90px;
+	height:90px;
 	font-size:25px;
 	color:#Fff;
 	text-align:center;
-	line-height:124px;
+	line-height:90px;
 	font-weight:400;
 }
 
