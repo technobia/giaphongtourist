@@ -16,32 +16,14 @@ const HomeClients = () => {
 
         <div className="grid_12">
           <div className="titlesection">
-            <h1>TOUR OPERATORS</h1>
-            <h4>LOREM IPSUM DOLOR SIT AMET CONSECTEUR ADIP</h4>
+            <h1>ĐỐI TÁC</h1>
+            <h4>Hiện chúng tôi đang liên kết với những đối tác sau</h4>
           </div>
         </div>
 
         <div className="grid_3">
           <div className="imgclient fade-left animate1">
-            <img alt="" src="img/clients/client1.png"/>
-          </div>
-        </div>
-
-        <div className="grid_3">
-          <div className="imgclient fade-left animate2">
-            <img alt="" src="img/clients/client2.png"/>
-          </div>
-        </div>
-
-        <div className="grid_3">
-          <div className="imgclient fade-left animate3">
-            <img alt="" src="img/clients/client3.png"/>
-          </div>
-        </div>
-
-        <div className="grid_3">
-          <div className="imgclient fade-left animate4">
-            <img alt="" src="img/clients/client4.png"/>
+            <img alt="" src="img/clients/tugo-logo.png"/>
           </div>
         </div>
 

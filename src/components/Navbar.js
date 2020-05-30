@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/img/logo.png';
+import Logo from '../assets/img/logo.svg';
 
 const Navbar = () => (
   <header id='navigationmenu' className='fade-down animate2 navigationmenulight'>
@@ -9,7 +9,9 @@ const Navbar = () => (
 
       <div className='grid_12 gridnavigation'>
 
-        <Link to="/"><img className='logo fade-up animate1' alt='' src={Logo} /></Link>
+        <Link to="/">
+          <img className='logo fade-up animate1' alt='' src={Logo} height={43} />
+        </Link>
 
           <ul className='sf-menu' id='nav'>
 
