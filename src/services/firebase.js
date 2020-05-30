@@ -1,5 +1,7 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+const firebase = window.firebase || {
+  initializeApp: () => null,
+  firestore: () => null,
+};
 
 const firebaseConfig = {
   apiKey: "AIzaSyD7M2iqn-DT7RpX0JFwY2k6v1YYiRIzxh0",
