@@ -22,7 +22,7 @@ const Homepage = () => {
       <div className="divider"><span /></div>
       <HomePromotion />
       <div className="divider"><span /></div>
-      <HomeDestination />
+      <HomeDestination tours={tours} />
       <div className="divider"><span /></div>
       <HomeClients />
       <div className="divider"><span /></div>

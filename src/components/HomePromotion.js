@@ -28,21 +28,22 @@ const HomePromotion = () => {
       <div className="container clearfix">
 
         <div className="grid_4">
-          <a className="btnpromotion rotate-In-Down-Left animate1" href="#"><p
-            className="blue"
-          >LAST MINUTE</p></a>
+          {/*<a className="btnpromotion rotate-In-Down-Left animate1" href="#"><p*/}
+            {/*className="blue"*/}
+          {/*>LAST MINUTE</p></a>*/}
+          &nbsp;
         </div>
 
         <div className="grid_4">
-          <h1 className="bounce-in animate2">THE BEST PROMOTIONS</h1>
-          <h4 className="bounce-in animate3">LOREM IPSUM DOLOR SIT AMET CONSECTEUR
-            ADIP</h4>
+          <h1 className="bounce-in animate2">KHUYẾN MÃI</h1>
+          <h4 className="bounce-in animate3">NỘI DUNG KHUYẾN MÃI ĐANG ĐƯỢC CẬP NHẬT...</h4>
         </div>
 
         <div className="grid_4">
-          <a className="btnpromotion rotate-In-Down-Right animate1" href="#"><p
-            className="green"
-          >PROMOTIONS</p></a>
+          {/*<a className="btnpromotion rotate-In-Down-Right animate1" href="#"><p*/}
+            {/*className="green"*/}
+          {/*>PROMOTIONS</p></a>*/}
+          &nbsp;
         </div>
 
       </div>

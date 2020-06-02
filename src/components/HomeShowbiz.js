@@ -52,7 +52,7 @@ const HomeShowbiz = ({ tours = [] }) => {
                     <ReacrMarkdown source={tour.description} className="excerpt" escapeHtml />
 
                     <div className='sb-readmore'>
-                      <a href='#'>READ MORE</a>
+                      <a href='#'>CHI TIẾT</a>
                     </div>
 
                     <div className='sb-clear' />

@@ -30,10 +30,10 @@ const Navbar = () => (
               <Link to='/tour'><strong>TOUR</strong></Link>
             </li>
 
-            <li className='green'>
-              <span className='menufilter'></span>
-              <Link to='/lien-he'><strong>LIÊN HỆ</strong></Link>
-            </li>
+            {/*<li className='green'>*/}
+              {/*<span className='menufilter'></span>*/}
+              {/*<Link to='/lien-he'><strong>LIÊN HỆ</strong></Link>*/}
+            {/*</li>*/}
 
           </ul>
 
