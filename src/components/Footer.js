@@ -15,7 +15,7 @@ const Footer = () => {
 
           <div className='grid_4 gridfooter'>
             <h3>GIA PHONG TOURIST</h3>
-            <p>Chúng tôi chuyên cung cấp vào hỗ trợ tư vấn các tour du lịch trong nước và nước ngoài với gia cạnh tranh cùng đội ngũ dày dặn kinh nghiệm.</p>
+            <p>Chúng tôi chuyên cung cấp và hỗ trợ tư vấn các tour du lịch trong nước và nước ngoài với gia cạnh tranh cùng đội ngũ dày dặn kinh nghiệm.</p>
             <p>Chúng tôi cam kết sẽ đem đến cho các bạn một chuyến đi đầy trải nghiệm vào ấn tượng.</p>
           </div>
 
