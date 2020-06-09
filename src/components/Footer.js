@@ -54,7 +54,7 @@ const Footer = () => {
         <div className='container'>
 
           <div className='grid_12'>
-            <p>© Copyright 2013 by Nicdark - All Rights Reserved</p>
+            <p>© Copyright 2020 by <a href="https://technobia.info" style={{ color: "white" }}>Binh Tran</a></p>
           </div>
 
         </div>
