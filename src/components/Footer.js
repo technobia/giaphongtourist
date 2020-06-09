@@ -1,19 +1,13 @@
 import React, { useEffect } from 'react';
 
 const Footer = () => {
-  useEffect(() => {
-    const $ = window.$;
-    $('#tweets').twitterFeed({
-      url: 'http://www.your-site.xx/js/twitter/twitterfeed.php', //insert here your twitterfeed.php url, see the documentation
-    });
-  });
   return (
     <>
       <footer id='footer'>
 
-        <div className='container' style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div className='container'>
 
-          <div className='grid_4 gridfooter'>
+          <div className='grid_6 gridfooter'>
             <h4 style={{ marginBottom: 0 }}>CÔNG TY TNHH SX TM - DV DU LỊCH GIA PHONG</h4>
             <h5 style={{ marginTop: 0, marginBottom: "1rem" }}>GIA PHONG TRAVEL & TRADING</h5>
             <p style={{ marginBottom: 0 }}>120/35 Đường 59, Phường 14, Quận Gò Vấp, TP.HCM</p>
@@ -21,7 +15,7 @@ const Footer = () => {
             <p style={{ marginBottom: 0 }}>Fax: (08) 6296 1757</p>
           </div>
 
-          <div className='grid_4 gridfooter'>
+          <div className='grid_6 gridfooter'>
             <h3>LIÊN HỆ</h3>
             <p>Anh Hùng: 0983.363.374<br />Anh Nam: 0918.574.027</p>
             <p>Email: <a href="mailto:giaphongtravel@gmail.com" style={{ color: "white" }}>giaphongtravel@gmail.com</a></p>
