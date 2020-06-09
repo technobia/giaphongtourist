@@ -13,6 +13,7 @@ const AboutUs = React.lazy(() => import('./pages/AboutUs'));
 const Tour = React.lazy(() => import('./pages/Tour'));
 const Contact = React.lazy(() => import('./pages/Contact'));
 const Footer = React.lazy(() => import('./components/Footer'));
+const Detail = React.lazy(() => import('./pages/Detail'));
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/gioi-thieu' component={AboutUs} />
           <Route path='/tour' component={Tour} />
           <Route path='/lien-he' component={Contact} />
+          <Route path='/chi-tiet' component={Detail} />
           <Redirect to='/' />
         </Switch>
         <Footer />

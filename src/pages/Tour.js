@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import useAnimate from '../hook/useAnimate';
 import { getTours } from "../services/tour";
 import ReacrMarkdown from "react-markdown";
+import { NavLink } from "react-router-dom";
 
 const Tour = () => {
   const [collections, setCollections] = useState([]);
@@ -36,10 +37,10 @@ const Tour = () => {
 
                 <div className="leftarchivetour">
 
-                  <a href="#"><img
+                  <NavLink to={`/chi-tiet?id=${item.id}`}><img
                     alt="" className="imgleftarchivetour opacity"
                     src={item.img}
-                  /></a>
+                  /></NavLink>
 
                   <div className="pricetitleleftarchivetour">
 
@@ -55,9 +56,9 @@ const Tour = () => {
                 <div className="rightarchivetour">
 
                   <div className="titledayarchivetour">
-                    <a href="#"><p
+                    <NavLink to={`/chi-tiet?id=${item.id}`}><p
                       className="titlearchivetour"
-                    >{item.title}</p></a>
+                    >{item.title}</p></NavLink>
 
                     <div className="dayarchivetour">
                       <p>{item.durations}</p>

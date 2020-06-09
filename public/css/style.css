@@ -1575,6 +1575,15 @@ canvas{
 	float:left;
 	width:100%;
 }
+.detail-content p,
+.detail-content li {
+	margin-bottom: 1rem;
+	color: #5e6d81;
+}
+.detail-content {
+	color: #5e6d81;
+	font-weight: normal;
+}
 .imgsinglepost{
 	float:left;
 	width:100%;

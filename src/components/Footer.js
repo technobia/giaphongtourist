@@ -14,14 +14,17 @@ const Footer = () => {
         <div className='container' style={{ display: 'flex', justifyContent: 'space-between' }}>
 
           <div className='grid_4 gridfooter'>
-            <h3>GIA PHONG TOURIST</h3>
-            <p>Chúng tôi chuyên cung cấp và hỗ trợ tư vấn các tour du lịch trong nước và nước ngoài với gia cạnh tranh cùng đội ngũ dày dặn kinh nghiệm.</p>
-            <p>Chúng tôi cam kết sẽ đem đến cho các bạn một chuyến đi đầy trải nghiệm vào ấn tượng.</p>
+            <h4 style={{ marginBottom: 0 }}>CÔNG TY TNHH SX TM - DV DU LỊCH GIA PHONG</h4>
+            <h5 style={{ marginTop: 0, marginBottom: "1rem" }}>GIA PHONG TRAVEL & TRADING</h5>
+            <p style={{ marginBottom: 0 }}>120/35 Đường 59, Phường 14, Quận Gò Vấp, TP.HCM</p>
+            <p style={{ marginBottom: 0 }}>Tel: (08) 2213 1291 - 2213 1292</p>
+            <p style={{ marginBottom: 0 }}>Fax: (08) 6296 1757</p>
           </div>
 
           <div className='grid_4 gridfooter'>
             <h3>LIÊN HỆ</h3>
             <p>Anh Hùng: 0983.363.374<br />Anh Nam: 0918.574.027</p>
+            <p>Email: <a href="mailto:giaphongtravel@gmail.com" style={{ color: "white" }}>giaphongtravel@gmail.com</a></p>
             <p className='socialfooter'>
               <a href='#'><img
                 alt='' src='img/footer/facebook.jpg'

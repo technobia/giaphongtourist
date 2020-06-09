@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import ReacrMarkdown from "react-markdown";
+import { NavLink } from "react-router-dom";
 
 const HomeShowbiz = ({ tours = [] }) => {
   useEffect(() => {
@@ -52,7 +53,7 @@ const HomeShowbiz = ({ tours = [] }) => {
                     <ReacrMarkdown source={tour.description} className="excerpt" escapeHtml />
 
                     <div className='sb-readmore'>
-                      <a href='#'>CHI TIẾT</a>
+                      <NavLink to={`/chi-tiet?id=${tour.id}`}>CHI TIẾT</NavLink>
                     </div>
 
                     <div className='sb-clear' />

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { NavLink } from "react-router-dom";
 import ReacrMarkdown from "react-markdown";
 
 const HomeDestination = ({ tours }) => {
@@ -55,7 +56,7 @@ const HomeDestination = ({ tours }) => {
                     <div className='avatarandtitle'>
 
                       <p className='titledestination'>
-                        <a href='#'>{item.title}</a>
+                        <NavLink to={`/chi-tiet?id=${item.id}`}>{item.title}</NavLink>
                       </p>
 
                     </div>
