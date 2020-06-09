@@ -1583,6 +1583,9 @@ canvas{
 	color: #5e6d81;
 	font-weight: normal;
 }
+.detail-content img {
+	max-width: 100%;
+}
 .imgsinglepost{
 	float:left;
 	width:100%;
